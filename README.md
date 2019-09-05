@@ -2,9 +2,9 @@
 ETL Project using Fangraphs starting rosters and USA Today Salary numbers
 
 ## Data Sources
-We used two data sources for this project. The first was [USA Today] (https://www.usatoday.com/sports/mlb/salaries/) to pull a table of the salaries of all active MLB players for the 2019 season.
+We used two data sources for this project. The first was [USA Today](https://www.usatoday.com/sports/mlb/salaries/) to pull a table of the salaries of all active MLB players for the 2019 season.
 
-The second was [FanGraphs] (https://www.fangraphs.com/teams/{}/depth-chart), where we pulled the most likely starting lineups for each team.
+The second was [FanGraphs](https://www.fangraphs.com/teams/{}/depth-chart), where we pulled the most likely starting lineups for each team.
 
 ## Extracting
 We scraped both of our data sources off of the above websites. For the salary data we used Pandas and the `pd.read_html` function to grab the table we wanted.
