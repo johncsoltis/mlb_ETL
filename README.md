@@ -1,4 +1,4 @@
-![MLB](https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png)
+![MLB](https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1429885658/axit3z8523ss6malonjg.png)
 
 # mlb_ETL
 ETL Project using Fangraphs starting rosters and USA Today Salary numbers
