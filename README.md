@@ -27,8 +27,9 @@ To empty a ton of stored null values the main database of all the players was sp
 
 ## Loading
 The dataframe was loaded into postgres using the pandas function to_spl. This is by far the most convient function when working in a python environment and wanting to upload into a relational database.
-Pitchers
+
+### Pitchers
 ![pitchers](images/pitchers.JPG)
-Fielders
+### Fielders
 ![fielders](images/fielders.JPG)
 
