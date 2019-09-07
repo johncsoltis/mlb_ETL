@@ -1,3 +1,5 @@
+![MLB](https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/1200px-Major_League_Baseball_logo.svg.png)
+
 # mlb_ETL
 ETL Project using Fangraphs starting rosters and USA Today Salary numbers
 
@@ -20,9 +22,9 @@ Our transformation look place at a few different stages of the project. Luckily 
 
 The lineup tab on the other hand need a bit more work. During the looping/scraping we needed to add the team names and positions to to each roster. Luckily the positions were the in the same order each time so we were able to to add a new column during each loop with the positions for each team.
 
-
+To empty a ton of stored null values the main database of all the players was split into position players and pitchers. This got rid of a ton of null values and all the data is still there.
 
 
 ## Loading
-
+The dataframe was loaded into postgres using the pandas function to_spl. This is by far the most convient function when working in a python environment and wanting to upload into a relational database.
 
